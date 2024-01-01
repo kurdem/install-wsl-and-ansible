@@ -7,3 +7,6 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 # Neustarten
 
 wsl --set-default-version 2
+
+# Ab Windows xx
+wsl --install
